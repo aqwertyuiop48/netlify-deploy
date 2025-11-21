@@ -123,19 +123,21 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 Steps:
 
-- node -v
-v18.0.0
-- yarn -v
-1.22.19
-- yarn create redwood-app ./netlify-deploy (includes git init)
-- code netlify-deploy/
-- yarn redwood generate page home /
-- yarn redwood generate page my-page
-- yarn rw dev (to start in local : http://localhost:8910/)
+node -v v18.0.0
+yarn -v 1.22.19
+yarn create redwood-app ./netlify-deploy (includes git init)
+code netlify-deploy/
+yarn redwood generate page home /
+yarn redwood generate page my-page
+yarn rw dev (to start in local : http://localhost:8910/)
 
 
 Git:
-- git add . && git commit -m "C" && git push https://github.com/aqwertyuiop48/netlify-deploy.git master
+
+git add . && git commit -m "C" && git push https://github.com/aqwertyuiop48/netlify-deploy.git typescript
+(or)
+git add . && git commit -m "C" && git push origin typescript
 
 Deploy to Netlify:
-- yarn rw setup deploy netlify ( to create netlify.toml file)
+
+yarn rw setup deploy netlify ( to create netlify.toml file)

@@ -3,7 +3,7 @@ import { MetaTags } from '@redwoodjs/web'
 
 const HomePage = () => {
 
-      const hangman = `
+              const hangman = `
    <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -172,7 +172,6 @@ startGame()
 </body>
 </html>
     `;
-
     const keyboard = `
 <!DOCTYPE html>
     <html lang="en">
@@ -386,9 +385,8 @@ startGame()
 
     </script>
     </html>
-`;
-
-      const clock = `
+`
+  const clock = `
   <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -499,8 +497,7 @@ function drawHand(ctx, pos, length, width){
 }
     </script>
 </body>
-  `;
-
+  `
     const tic_tac_toe = `
   <!doctype html>
     <html lang="en">
@@ -633,7 +630,6 @@ document.querySelector('.game--restart').addEventListener('click', handleRestart
         </script>
     </body>
   `
-
     const maze = `
   <html lang="en-GB">
     <head>
@@ -1432,7 +1428,6 @@ document.querySelector('.game--restart').addEventListener('click', handleRestart
       </body>
     </html>
   `
-
     const calculator = `
       <html>
     <head>
@@ -1672,7 +1667,6 @@ document.querySelector('.game--restart').addEventListener('click', handleRestart
     </body>
     </html>
   `
-
     const solitaire = `
 <html>
 <head>
@@ -3024,7 +3018,6 @@ document.querySelector('.game--restart').addEventListener('click', handleRestart
 </script>
 </html>
   `
-
     const tilt_maze = `
 
 <!DOCTYPE html>
@@ -4001,8 +3994,7 @@ function main(timestamp) {
 </html>
 
 `
-
-  const dino = `
+const dino = `
 
 <html>
 
@@ -6628,7 +6620,6 @@ html[subframe] body {
 </body>
 </html>
 `
-
 const codepen = `
 <!DOCTYPE html>
 <html>
@@ -6686,7 +6677,6 @@ const codepen = `
 </html>
 
 `
-
 const sass_ = `
 <!DOCTYPE html>
 <html>
@@ -6728,7 +6718,6 @@ body{
     </body>
 </html>
 `
-
 const chess = `
   <!doctype html>
     <html>
@@ -7936,7 +7925,7 @@ const chess = `
 <\/script>
 </body>
 </html>
-`
+`;
 
 const sudoku = `
 <!DOCTYPE html>
@@ -9783,6 +9772,7 @@ doc.close();
 </body>
 </html>
 `;
+
 
 
   return (
